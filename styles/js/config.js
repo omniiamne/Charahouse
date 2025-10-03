@@ -31,6 +31,7 @@ charadex.sheet = {
   pages: {
     masterlist:    "masterlist",
     masterlistLog: "masterlist log",
+    imageGallery:  "image gallery",
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",

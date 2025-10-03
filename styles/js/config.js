@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Charadex",
-  url: "https://charahouse.netlify.app/",
+  url: "https://charadex-team.github.io/charadex-v1.0/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
@@ -26,12 +26,11 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1fPTBLV4Z9BuXEcD4WZPP2GYEvqS438zwg8WvBcdR-6A/edit?gid=1495041517",
+  id: "1fPTBLV4Z9BuXEcD4WZPP2GYEvqS438zwg8WvBcdR-6A",
 
   pages: {
     masterlist:    "masterlist",
     masterlistLog: "masterlist log",
-    imageGallery:  "image gallery",
     inventory:     "inventory",
     inventoryLog:  "inventory log",
     items:         "items",
@@ -303,52 +302,6 @@ charadex.page.faq = {
 }
 
 
-/* Image Gallery
-/* --------------------------------------------------------------- */
-charadex.page.imageGallery = {
-
-  sheetPage: charadex.sheet.pages.imageGallery,
-  sitePage: 'gallery',
-  dexSelector: 'charadex',
-  profileProperty: 'id',
-
-  sort: {
-    toggle: true,
-    key: "id",
-    order: "asc",
-    parameters: []
-  },
-
-  pagination: {
-    toggle: true,
-    bottomToggle: true,
-    amount: 12,
-  },
-
-  filters: {
-    toggle: false,
-    parameters: {}
-  },
-
-  fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
-  },
-
-  search: {
-    toggle: true,
-    filterToggle: true,
-    parameters: ['All', 'Designs', 'Artist', 'Tags']
-  },
-
-  prevNext: {
-    toggle: false,
-  },
-
-};
-
-
 
 /* Masterlist
 /* --------------------------------------------------------------- */
@@ -418,32 +371,6 @@ charadex.page.masterlist = {
       pagination: {
         toggle: true,
         bottomToggle: false,
-        amount: 12,
-      },
-
-    },
-
-    [charadex.sheet.pages.imageGallery]: {
-
-      ... charadex.page.imageGallery,
-
-      sheetPage: charadex.sheet.pages.imageGallery,
-      primaryProperty: 'design',
-      relatedProperty: 'designs',
-      dexSelector: 'gallery',
-      profileProperty: 'id',
-      profileToggle: false,
-
-      sort: {
-        toggle: true,
-        key: "id",
-        order: "asc",
-        parameters: []
-      },
-
-      pagination: {
-        toggle: true,
-        bottomToggle: true,
         amount: 12,
       },
 

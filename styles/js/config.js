@@ -602,5 +602,3 @@ charadex.page.index = {
 
 
 export { charadex };
-
-export { charadex };

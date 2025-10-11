@@ -22,7 +22,7 @@ body {
   /* Secondary Color
   ================================================================ */
   --cd-secondary-color:                  #fceec3;
-  --cd-secondary-text-color:             ##ff0033;
+  --cd-secondary-text-color:             #ff0033;
 
   /* ============================================================= */
   /* Backgrounds
@@ -62,7 +62,7 @@ body {
   /* Main Fonts
   ================================================================ */
   --cd-body-font-family:                 'Montserrat', sans-serif;
-  --cd-header-font-family:               'Playwrite DE SAS', cursive;
+  --cd-header-font-family:               'BBH Sans Hegarty', sans-serif;
 
 
   /* ============================================================= */
@@ -660,4 +660,11 @@ p:last-child {
         letter-spacing: 2px;
         font-size: 5rem;
     }
+}
+
+.playwrite-de-sas-<uniquifier> {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }

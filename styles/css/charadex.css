@@ -142,7 +142,8 @@ body {
   ================================================================ */
   
   /* Background */
-  --cd-card-background-color:            var(--cd-content-background-color);
+  --cd-card-backdrop-filter: blur(14px);
+  --cd-card-background-color: rgba(255, 255, 255, 0.2);
   --cd-card-header-background-color:     var(--cd-card-background-color);
 
   /* Text */

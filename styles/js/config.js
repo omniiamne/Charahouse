@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
+  url: "https://charahome.netlify.app/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1vcUJX7MODFgdtY5BEYkMhAh0u_e7ea9yXQdCjRDhaI8",
+  id: "1vWPOsggBGu_u7CuRX7FryoftmX6gWATS3eeFUK0C0P0",
 
   pages: {
     masterlist:    "masterlist",

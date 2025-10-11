@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color:           #474243;
 
   /* Background Extras */
-  --cd-body-background-image:             url(https://c.wallhere.com/photos/74/1c/Minecraft_ComplementaryShaders_v4_7_1_aurorae_stars-2248576.jpg!d);
+  --cd-body-background-image:             url(https://i.pinimg.com/564x/7a/5c/26/7a5c26451f926a96bf70d03fccdac576.jpg);
 
   /* ============================================================= */
   /* Text
@@ -63,7 +63,7 @@ body {
   /* Main Fonts
   ================================================================ */
   --cd-body-font-family:                 'Montserrat', sans-serif;
-  --cd-header-font-family:               'Comfortaa', sans-serif;
+  --cd-header-font-family:               'Playwrite DE SAS', cursive;
 
 
   /* ============================================================= */
@@ -574,7 +574,7 @@ p:last-child {
 
 /* Small container for more compact view */
 .container {
-  max-width: 950px !important;
+  max-width: 1050px !important;
 }
 
 /* Prevents awkward load in stutter */

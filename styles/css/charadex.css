@@ -16,7 +16,7 @@ body {
   /* Primary Color
   ================================================================ */
   --cd-primary-color:                    #474243;
-  --cd-primary-text-color:               #ff0024;
+  --cd-primary-text-color:               #fceec3;
 
   /* ============================================================= */
   /* Secondary Color
@@ -63,7 +63,6 @@ body {
   ================================================================ */
   --cd-body-font-family:                 'Montserrat', sans-serif;
   --cd-header-font-family:               'BBH Sans Hegarty', sans-serif;
-
 
   /* ============================================================= */
   /*
@@ -522,6 +521,14 @@ hr {
   height: 5px;
 }
 
+hr::after {
+  background: #322f31;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
 img {
   image-rendering: -webkit-optimize-contrast;
 }
@@ -652,11 +659,4 @@ p:last-child {
         letter-spacing: 2px;
         font-size: 5rem;
     }
-}
-
-.playwrite-de-sas-<uniquifier> {
-  font-family: "Playwrite DE SAS", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }

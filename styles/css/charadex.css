@@ -63,6 +63,7 @@ body {
   ================================================================ */
   --cd-header-font-family:             'Press Start 2P', system-ui;
   --cd-body-font-family:               'Press Start 2P', system-ui;
+  
 
   /* ============================================================= */
   /*
@@ -659,4 +660,13 @@ p:last-child {
         letter-spacing: 2px;
         font-size: 5rem;
     }
+  
 }
+p {
+font-size: 10px; /* Устанавливает размер шрифта в пикселях */
+}
+
+h1 {
+font-size: 2em; /* Размер в 2 раза больше родительского */
+}
+

@@ -515,15 +515,15 @@ h4, h5, h6 {
 
 hr {
   border: none;
-  border-top: 3px double var(--cd-body-text-color);
-  color: #333;
+  border-top: 3px double var(--cd-secondary-text-color);
+  color: var(--cd-secondary-text-color);
   overflow: visible;
   text-align: center;
   height: 5px;
 }
 
 hr::after {
-  background: var(--cd-card-background-color);
+  background: var(--cd-secondary-text-color);
   content: "§";
   padding: 0 4px;
   position: relative;

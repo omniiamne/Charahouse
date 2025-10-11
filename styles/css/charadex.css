@@ -523,7 +523,7 @@ hr {
 }
 
 hr::after {
-  background: var(--cd-content-text-color);
+  background: #fff;
   content: "§";
   padding: 0 4px;
   position: relative;

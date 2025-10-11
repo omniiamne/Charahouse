@@ -522,14 +522,6 @@ hr {
   height: 5px;
 }
 
-hr::after {
-  background: #322f31;
-  content: "§";
-  padding: 0 4px;
-  position: relative;
-  top: -13px;
-}
-
 img {
   image-rendering: -webkit-optimize-contrast;
 }

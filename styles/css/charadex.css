@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
-  --cd-body-background-image: url();
+  --cd-body-background-image: url(https://avatars.mds.yandex.net/i?id=2a0000017a1743fb017e41d5a747d97d3a33-4884589-images-thumbs&n=13);
 
   /* ============================================================= */
   /* Text
@@ -230,10 +230,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* Global Background */
-  background-color: var(--cd-body-background-color);
-  background-image: var(--cd-body-background-image);
-  background-position: center;
-  background-size: cover;
+
+display: flex;
+flex-direction: row;
+min-height: 100vh;
+background-image: var(--cd-body-background-image);
+background-color: #333;
+background-attachment: fixed;
+background-repeat: repeat;
+background-size: cover;
+background-position: center bottom;
+flex-wrap: nowrap;
 
 }
 

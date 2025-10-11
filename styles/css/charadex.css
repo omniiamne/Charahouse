@@ -115,6 +115,7 @@ body {
   --cd-hr-border-width:                  var(--cd-border-width);
   --cd-hr-border-color:                  var(--cd-border-color);
   --cd-hr-border-style:                  var(--cd-border-style);
+  
 
 
   /* ============================================================= */
@@ -513,9 +514,20 @@ h4, h5, h6 {
 }
 
 hr {
-  border-top-color: var(--cd-hr-border-color) !important;
-  border-top-width: var(--cd-hr-border-width) !important;
-  border-top-style: var(--cd-hr-border-style) !important;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: #fff;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
 }
 
 img {

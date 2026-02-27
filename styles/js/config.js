@@ -15,7 +15,7 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
+  title: "Spiral",
   url: "https://charahome.netlify.app/",
   description: `A tool for organizing small ARPGs and species.`
 }
@@ -29,16 +29,16 @@ charadex.sheet = {
   id: "1vWPOsggBGu_u7CuRX7FryoftmX6gWATS3eeFUK0C0P0",
 
   pages: {
-    masterlist:    "masterlist",
-    masterlistLog: "masterlist log",
-    imageGallery:  "image gallery",
-    inventory:     "inventory",
-    inventoryLog:  "inventory log",
-    items:         "items",
-    traits:        "traits",
-    prompts:       "prompts",
-    faq:           "faq",
-    staff:         "mods",
+    masterlist:    "мастерлист",
+    masterlistLog: "логи мастерлиста",
+    imageGallery:  "галерея изображений",
+    inventory:     "ивентарь",
+    inventoryLog:  "логи инвентаря",
+    items:         "предметы",
+    traits:        "черты",
+    prompts:       "промпты",
+    faq:           "вопросы и ответы",
+    staff:         "модераторы",
   },
 
   options: {

@@ -673,4 +673,21 @@ h1 {
 font-size: 2em; /* Размер в 2 раза больше родительского */
 }
 
+/* Prevents awkward load in stutter */
+#charadex-gallery .list .card-body {
+  min-height: calc(200px + 2.5rem);
+}
+
+#charadex-gallery .list .card-body img {
+  max-height: 200px;
+}
+
+.cd-gallery-card {
+  min-height: calc(175px + 2.5rem);
+}
+
+.cd-gallery-card > img {
+  max-height: 175px !important;
+}
+  
 }

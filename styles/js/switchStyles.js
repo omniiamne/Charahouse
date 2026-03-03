@@ -1,5 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     const stylesheet = document.getElementById('stylesheet');
+    
+// Защита
+    function switchStylesheet() {
+    const stylesheet = document.getElementById("themeStylesheet");
+    if (!stylesheet) {
+        console.error("themeStylesheet not found in DOM");
+        return;
+    }
+
+    const currentTheme = stylesheet.getAttribute("href");
+    ...
+}
+
 
     // Function to switch stylesheet
     function switchStylesheet() {

@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const currentTheme = stylesheet.getAttribute("href");
-    ...
 }
 
 

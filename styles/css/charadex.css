@@ -53,7 +53,7 @@ body {
   --cd-navbar-background-color:          #21212a;
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
-  --cd-navbar-text-color:                var(--cd-content-background-color);
+  --cd-navbar-text-color:                #fceec3;
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
   --cd-navbar-link-color-hover:          var(--cd-primary-color);
   --cd-navbar-font-family:               var(--cd-header-font-family);

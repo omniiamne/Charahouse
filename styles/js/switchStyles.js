@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to switch stylesheet
     function switchStylesheet() {
-        if (stylesheet.getAttribute('href') === '/styles/charadex.css') {
-            stylesheet.setAttribute('href', '/styles/lorekeeper.css');
-            localStorage.setItem('stylesheet', '/styles/lorekeeper.css');
+        if (stylesheet.getAttribute('href') === '/styles/css/charadex.css') {
+            stylesheet.setAttribute('href', '/styles/css/lorekeeper.css');
+            localStorage.setItem('stylesheet', '/styles/css/lorekeeper.css');
         } else {
-            stylesheet.setAttribute('href', '/styles/charadex.css');
-            localStorage.setItem('stylesheet', '/styles/charadex.css');
+            stylesheet.setAttribute('href', '/styles/css/charadex.css');
+            localStorage.setItem('stylesheet', '/styles/css/charadex.css');
         }
     }
 

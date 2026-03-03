@@ -61,8 +61,8 @@ body {
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-header-font-family:             'Rubik', sans-serif;
-  --cd-body-font-family:               'Caveat', cursive;
+  --cd-header-font-family:             'Caveat', cursive;
+  --cd-body-font-family:               'Rubik', sans-serif;
   
 
   /* ============================================================= */

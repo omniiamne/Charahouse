@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color:           #474243;
 
   /* Background Extras */
-  --cd-body-background-image:             url(https://f2.toyhou.se/file/f2-toyhou-se/images/68612314_fMNnphTtdCSiwHO.jpg);
+  --cd-body-background-image:             url(https://i.pinimg.com/736x/d2/95/09/d295094c4684485b7791c3eb0d4af712.jpg);
 
   /* ============================================================= */
   /* Text
@@ -209,17 +209,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* Global Background */
-
-display: flex;
-flex-direction: row;
-min-height: 100vh;
-background-image: var(--cd-body-background-image);
-background-color: #333;
-background-attachment: fixed;
-background-repeat: repeat;
-background-size: cover;
-background-position: center bottom;
-flex-wrap: nowrap;
+  background-color: var(--cd-body-background-color);
+  background-image: var(--cd-body-background-image);
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
 
 }
 
@@ -688,6 +682,14 @@ font-size: 2em; /* Размер в 2 раза больше родительск�
 
 .cd-gallery-card > img {
   max-height: 175px !important;
+}
+
+  .header-banner {
+    height: 250px;
+    border-radius: 0 0 0 0;
+    background-image: url("https://img-l.ink/img/1LVeMb9kzqCRnpFHcuK9mCJuNCrBfQoT0.png");
+    background-position: center;
+    background-size: cover;
 }
   
 }

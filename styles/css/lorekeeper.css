@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color:           #474243;
 
   /* Background Extras */
-  --cd-body-background-image:             url(https://img-l.ink/img/1xwkeD_YkuLVMG1T2JS82HeTMWSwY77xI.png);
+  --cd-body-background-image:             url(https://i.pinimg.com/564x/69/bf/41/69bf4137a553a0dadaf8325bf313c8ed.jpg);
 
   /* ============================================================= */
   /* Text
@@ -693,7 +693,7 @@ font-size: 2em; /* Размер в 2 раза больше родительск�
   .header-banner {
     height: 250px;
     border-radius: 0 0 0 0;
-    background-image: url("https://img-l.ink/img/1vOcIFc3Az46Gb7BPUcVK_iP2DG2LuEHZ.png");
+    background-image: url("https://img-l.ink/img/15-mUfv3018oVd4WCIs1HCUeQsaNjXf0Y.png");
     background-position: center;
     background-size: cover;
 }

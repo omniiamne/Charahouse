@@ -1,13 +1,17 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const includes = document.querySelectorAll('[data-source]');
+const includes = document.querySelectorAll('[data-include]');
+let loaded = 0;
 
-    includes.forEach(function(include) {
-        const source = include.getAttribute('data-source');
-        fetch(source)
-            .then(response => response.text())
-            .then(data => {
-                include.innerHTML = data;
-            })
-            .catch(error => console.error('Error loading include:', error));
-    });
+includes.forEach(el => {
+  const file = el.getAttribute('data-include');
+  fetch(file)
+    .then(response => response.text())
+    .then(data => {
+      el.innerHTML = data;
+      loaded++;
+
+      if (loaded === includes.length) {
+        document.dispatchEvent(new Event("includesLoaded"));
+      }
+    })
+    .catch(err => console.error('Error loading include:', err));
 });

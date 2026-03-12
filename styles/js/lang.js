@@ -24,6 +24,14 @@ function applyLanguage(lang) {
   });
 }
 
+function applyLanguage(lang) {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const text = el.getAttribute(`data-i18n-${lang}`);
+    if (text) el.textContent = text;
+  });
+}
+
+
 function setLanguage(lang) {
   localStorage.setItem("lang", lang);
   applyLanguage(lang);

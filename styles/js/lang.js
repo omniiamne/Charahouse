@@ -49,5 +49,8 @@ function waitForHeader() {
   initLanguage();
 }
 
-document.addEventListener("DOMContentLoaded", waitForHeader);
+document.addEventListener("includesLoaded", () => {
+  initLanguage();
+});
+
 

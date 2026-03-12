@@ -8,3 +8,14 @@ function setLanguage(lang) {
 
   localStorage.setItem("lang", lang);
 }
+
+document.querySelectorAll("[data-lang]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    setLanguage(btn.dataset.lang);
+  });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const saved = localStorage.getItem("lang") || "en";
+  setLanguage(saved);
+});

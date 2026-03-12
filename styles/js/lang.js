@@ -5,12 +5,10 @@
 const translations = {
   en: {
     "nav-staff": "Staff"
-  }
-  { "nav-news": "News" },
+   "nav-news": "News" },
   ru: {
     "nav-staff": "Команда"
-  }
-{ "nav-news": "Новости" }
+   "nav-news": "Новости" }
 };
 
 

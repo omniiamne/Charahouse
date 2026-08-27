@@ -231,7 +231,7 @@ body {
   /* Global Background */
   background-color: var(--cd-body-background-color);
   background-image: var(--cd-body-background-image);
-  background-position: center;
+  background-position: left;
   background-size: auto;
   background-attachment: fixed;
 

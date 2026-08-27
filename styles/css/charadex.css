@@ -831,7 +831,7 @@ navbar {
 }
 
 .main-content { 
-  background-color: rgba(255, 255, 255, 0.5); 
+  background-color: rgba(71, 66, 67, 0.5); 
   backdrop-filter: blur(10px); 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px 3px; 
   display: flex; flex-direction: column;   

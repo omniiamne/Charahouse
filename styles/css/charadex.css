@@ -15,55 +15,54 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #8FB7D4;
-  --cd-primary-text-color: #fff;
+  --cd-primary-color:                    #474243;
+  --cd-primary-text-color:               #fceec3;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color: #939799;
-  --cd-secondary-text-color: #fff;
+  --cd-secondary-color:                  #fceec3;
+  --cd-secondary-text-color:             #474243;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color: #d2d2d2;
-  --cd-content-background-color: #ffffff;
-  --cd-faded-background-color: #f8f8f8;
+  --cd-body-background-color:            #474243;
+  --cd-content-background-color:         #322f31;
+  --cd-faded-background-color:           #474243;
 
   /* Background Extras */
-  --cd-body-background-image: url(https://wallpaperaccess.com/full/1994403.jpg);
+  --cd-body-background-image:             url(https://img-l.ink/img/1jh_ZvYpI30kvpZZH5hmDRkakozoE_Oxt.png);
 
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color: #303030;
-  --cd-faded-text-color: #575757;
+  --cd-body-text-color:                  #fceec3;
+  --cd-faded-text-color:                 #fceec3;
 
   /* ============================================================= */
   /* Borders
   ================================================================ */
-  --cd-border-color: rgba(0, 0, 0, 0.125);
-  --cd-border-width: 1px;
-  --cd-border-style: solid;
-  --cd-border-radius: 1rem;
+  --cd-border-color:                     rgba(0, 0, 0, 0.125);
+  --cd-border-width:                     1px;
+  --cd-border-radius:                    0rem;
 
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color: #222222;
-  --cd-navbar-brand-color: var(--cd-primary-color);
-  --cd-navbar-brand-color-hover: var(--cd-secondary-color);
-  --cd-navbar-text-color: var(--cd-content-background-color);
-  --cd-navbar-link-color: var(--cd-navbar-text-color);
-  --cd-navbar-link-color-hover: var(--cd-primary-color);
-  --cd-navbar-font-family: var(--cd-header-font-family);
+  --cd-navbar-background-color:          #21212a;
+  --cd-navbar-brand-color:               var(--cd-primary-color);
+  --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
+  --cd-navbar-text-color:                #fceec3;
+  --cd-navbar-link-color:                var(--cd-navbar-text-color);
+  --cd-navbar-link-color-hover:          var(--cd-primary-color);
+  --cd-navbar-font-family:               var(--cd-header-font-family);
 
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-body-font-family: 'Montserrat', sans-serif;
-  --cd-header-font-family: 'Comfortaa', sans-serif;
+  --cd-header-font-family:             "Pacifico", cursive;
+  --cd-body-font-family:               "Pangolin", cursive;
   
   /* ============================================================= */
   /* Rarities
@@ -116,17 +115,17 @@ body {
   --cd-footer-background-color: var(--cd-navbar-background-color);
 
   /* Link/Text */
-  --cd-footer-text-color: var(--cd-navbar-background-color);
-  --cd-footer-link-color: var(--cd-navbar-background-color);
-  --cd-footer-link-color-hover: var(--cd-navbar-background-color);
+  --cd-footer-text-color:                var(--cd-navbar-text-color);
+  --cd-footer-link-color:                var(--cd-navbar-link-color);
+  --cd-footer-link-color-hover:          var(--cd-navbar-link-color-hover);
 
 
   /* ============================================================= */
   /* Link
   ================================================================ */
 
-  --cd-link-text-color: #4c8ebd;
-  --cd-link-text-color-hover: var(--cd-secondary-color);
+  --cd-link-text-color:                  #93bfbf;
+  --cd-link-text-color-hover:            var(--cd-secondary-color);
 
 
   /* ============================================================= */
@@ -233,8 +232,8 @@ body {
   background-color: var(--cd-body-background-color);
   background-image: var(--cd-body-background-image);
   background-position: center;
-  background-repeat: repeat;
-  background-attachment:fixed;
+  background-size: auto;
+  background-attachment: fixed;
 
 }
 
@@ -345,7 +344,7 @@ a:active {
 /* ============================================================= */
 
 .footer {
-  background-color: var(transparent) !important;
+  background-color: var(--cd-footer-background-color) !important;
   color: var(--cd-footer-text-color) !important;
 }
 
@@ -358,6 +357,38 @@ a:active {
 .footer a:focus,
 .footer a:active {
   color: var(--cd-footer-link-color-hover) !important;
+}
+
+/* ============================================================= */
+/* Multi Select Fixes
+/* ============================================================= */
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active, 
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: var(--cd-body-text-color) !important;
+}
+
+.dropdown-menu {
+  border-radius: var(--cd-border-radius) !important;
+  background-color: var(--cd-faded-background-color) !important;
+  color: var(--cd-body-text-color) !important;
+}
+
+.dropdown-item {
+  color: var(--cd-body-text-color) !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item.selected {
+  background-color: var(--cd-primary-color) !important;
+  color: var(--cd-primary-text-color) !important;
 }
 
 
@@ -457,15 +488,6 @@ a:active {
   border-radius: var(--cd-border-radius) !important;
 }
 
-.card-header {
-  background-color: var(--cd-card-header-background-color) !important;
-  border-bottom-color: var(--cd-card-border-color) !important;
-  border-bottom-width: var(--cd-card-border-width) !important;
-  border-bottom-style: var(--cd-card-border-style) !important;
-  font-family: var(--cd-card-header-font-family) !important;
-  border-radius: calc(var(--cd-border-radius) - 1px) calc(var(--cd-border-radius) - 1px) 0 0 !important;
-}
-
 .card-body {
   background-color: var(--cd-card-header-background-color) !important;
   border-bottom-color: var(--cd-card-border-color) !important;
@@ -473,6 +495,15 @@ a:active {
   border-bottom-style: var(--cd-card-border-style) !important;
   font-family: var(--cd-card-header-font-family) !important;
   border-radius: 0 0 calc(var(--cd-border-radius) - 1px) calc(var(--cd-border-radius) - 1px) !important;
+}
+
+.card-footer {
+  background-color: var(--cd-card-header-background-color) !important;
+  border-top-color: var(--cd-card-border-color) !important;
+  border-top-width: var(--cd-card-border-width) !important;
+  border-top-style: var(--cd-card-border-style) !important;
+  font-family: var(--cd-card-header-font-family) !important;
+  border-radius: 0 0  calc(var(--cd-border-radius) - 1px) calc(var(--cd-border-radius) - 1px) !important;
 }
 
 .card-footer {

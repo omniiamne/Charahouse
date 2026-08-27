@@ -833,10 +833,6 @@ main {
   margin-top: 10px;
 }
 
-navbar {
-    width: 800px;
-}
-
 .main-content { 
   background-color: rgba(71, 66, 67, 0.5); 
   backdrop-filter: blur(10px); 

@@ -1,20 +1,29 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const styleLink = document.getElementById("theme-style");
-    const savedTheme = localStorage.getItem("theme") || "charadex";
-
+document.addEventListener('DOMContentLoaded', function() {
+    const stylesheet = document.getElementById('stylesheet');
     
-    applyTheme(savedTheme);
 
-    
-    document.querySelectorAll("[data-theme]").forEach(btn => {
-        btn.addEventListener("click", () => {
-            const theme = btn.getAttribute("data-theme");
-            applyTheme(theme);
-            localStorage.setItem("theme", theme);
-        });
+
+    // Function to switch stylesheet
+    function switchStylesheet() {
+        if (stylesheet.getAttribute('href') === 'styles/css/charadex.css') {
+            stylesheet.setAttribute('href', 'styles/css/lorekeeper.css');
+            localStorage.setItem('stylesheet', 'styles/css/lorekeeper.css');
+        } else {
+            stylesheet.setAttribute('href', 'styles/css/charadex.css');
+            localStorage.setItem('stylesheet', 'styles/css/charadex.css');
+        }
+    }
+
+    // Event delegation for the button
+    document.body.addEventListener('click', function(event) {
+        if (event.target.id === 'switchButton') {
+            switchStylesheet();
+        }
     });
 
-    function applyTheme(theme) {
-        styleLink.href = `/styles/css/${theme}.css`;
+    // Check localStorage for saved preference
+    const savedStylesheet = localStorage.getItem('stylesheet');
+    if (savedStylesheet) {
+        stylesheet.setAttribute('href', savedStylesheet);
     }
 });

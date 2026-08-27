@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Spiral",
-  url: "https://charahome.netlify.app/",
+  url: "https://omniiamne.netlify.app/",
   description: `A tool for organizing small ARPGs and species.`
 }
 

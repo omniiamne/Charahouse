@@ -56,7 +56,7 @@ body {
   --cd-navbar-text-color:                #fceec3;
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
   --cd-navbar-link-color-hover:          var(--cd-primary-color);
-  --cd-navbar-font-family:               var(--cd-header-font-family);
+  --cd-navbar-font-family:               var(--cd-body-font-family);
 
   /* ============================================================= */
   /* Main Fonts

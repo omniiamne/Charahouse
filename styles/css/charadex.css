@@ -824,7 +824,7 @@ p:last-child {
 
 .header-banner {
     height: 250px;
-    border-radius: 10 10 0 0;
+    border-radius: 0 0 0 0;
     background-image: url("https://img-l.ink/img/1LVeMb9kzqCRnpFHcuK9mCJuNCrBfQoT0.png");
     background-position: center;
     background-size: cover;
@@ -903,44 +903,4 @@ navbar {
 
 .text-muted {
   color: rgba(255, 255, 255, 0.5); 
-}
-
-/* ============================================================= */
-  /*
-  /* деревья
-  /*
-  /* ============================================================= */
-
-.tree {
-  position: relative;
-    width: max-content;
-    padding-left: 80px;
-}
-
-.level {
-  display: flex;
-  justify-content: center;
-  gap: 120px;
-  margin-bottom: 140px;
-}
-
-.node {
-  width: 300px;
-  position: relative;
-  z-index: 2;
-}
-
-.line {
-  position: absolute;
-  background: #0d6efd;
-  z-index: 1;
-}
-
-.tree-wrapper {
-    overflow-x: auto;
-    overflow-y: visible;
-    width: 100%;
-    padding: 50px 0;
-    display: flex;
-    justify-content: center;
 }

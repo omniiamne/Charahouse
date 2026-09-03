@@ -97,6 +97,9 @@ charadex.tools = {
       if (classArr[i].includes('link') || classArr[i].includes('toyhouse')) {
         newArr[i] = { name: classArr[i], attr: 'href' };
       }
+      if (classArr[i].includes('carouselname') {
+        newArr[i] = { name: classArr[i], attr: 'id' };
+      }
     }
 
     return newArr;

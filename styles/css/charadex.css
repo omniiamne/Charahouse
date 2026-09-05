@@ -901,6 +901,6 @@ navbar {
   max-height: 175px !important;
 }
 
-.text-muted {
-  color: rgba(255, 255, 255, 0.5); 
+.carousel-item {
+  min-height: 500px; 
 }

@@ -712,4 +712,5 @@ hr::after {
   padding: 0 4px;
   position: relative;
   top: -13px;
+  margin: 0 auto
 }

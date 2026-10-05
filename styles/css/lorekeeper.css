@@ -518,7 +518,7 @@ hr {
 
 hr::after {
   background: var(--cd-background-color);
-  content: "§";
+  content: "✦";
   padding: 0 4px;
   position: relative;
   top: -13px;

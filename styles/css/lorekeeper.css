@@ -703,7 +703,6 @@ hr {
   color: var(--cd-secondary-color);
   overflow: visible;
   height: 5px;
-  margin: 0 auto
 }
 
 hr::after {

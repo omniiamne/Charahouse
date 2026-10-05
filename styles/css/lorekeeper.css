@@ -55,7 +55,7 @@ body {
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-primary-color);
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
-  --cd-navbar-link-color-hover:          var(--cd-primary-color);
+  --cd-navbar-link-color-hover:          var(--cd-secondary-color);
   --cd-navbar-font-family:               var(--cd-body-font-family);
   
   /* ============================================================= */

@@ -16,7 +16,7 @@ body {
   /* Primary Color
   ================================================================ */
   --cd-primary-color:                    #333;
-  --cd-primary-text-color:               #eaeaea;
+  --cd-primary-text-color:               #eaeaea; 
 
   /* ============================================================= */
   /* Secondary Color
@@ -517,7 +517,6 @@ hr {
 }
 
 hr::after {
-  background: #322f31;
   content: "§";
   padding: 0 4px;
   position: relative;
@@ -688,37 +687,6 @@ navbar {
   border-style: var(--cd-card-border-style) !important;
   border-color: var(--cd-card-border-color) !important;
   border-radius: var(--cd-border-radius) !important;
-}
-
-.sidebar {
-  margin-right: 0;
-}
-
-.sidebar ul { 
-  list-style-type: none; 
-  display: inline-block; 
-  padding-top: 30px; 
-}
-
-.sidebar ul li { 
-  background-color: rgba(255, 255, 255, 0.5); 
-  backdrop-filter: blur(10px); 
-  border-top-left-radius: 0.25rem; 
-  border-bottom-left-radius: 0.25rem; 
-  margin-bottom: 1em; padding: 0.4em 0px; 
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px 3px; 
-}
-
-.sidebar-header { 
-  color: var(--cd-navbar-background-color); 
-}
-
-.sidebar-header a { 
-  color: white; 
-}
-.sidebar-header a:hover { 
-  background-color: transparent; 
-  color: rgba(255, 255, 255, 0.8); 
 }
 
 .footer {

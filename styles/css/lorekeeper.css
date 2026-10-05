@@ -44,8 +44,8 @@ body {
   /* Borders
   ================================================================ */
   --cd-border-color:                     rgba(0, 0, 0, 0.125);
-  --cd-border-width:                     1px;
-  --cd-border-radius:                    0rem;
+  --cd-border-width:                     5px;
+  --cd-border-radius:                    5rem;
 
   /* ============================================================= */
   /* Navbar

@@ -21,8 +21,8 @@ body {
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #666;
-  --cd-secondary-text-color:             #666;
+  --cd-secondary-color:                  ##eaeaea;
+  --cd-secondary-text-color:             ##eaeaea;
 
   /* ============================================================= */
   /* Backgrounds

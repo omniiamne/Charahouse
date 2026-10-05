@@ -708,7 +708,7 @@ hr {
 
 hr::after {
   background-color: var(--cd-body-background-color);
-  content: "✦";
+  content: " ✂ ";
   padding: 0 4px;
   position: relative;
   top: -13px;

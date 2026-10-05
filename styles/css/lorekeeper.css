@@ -15,21 +15,21 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #474243;
-  --cd-primary-text-color:               #fceec3;
+  --cd-primary-color:                    #333;
+  --cd-primary-text-color:               #333;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #fceec3;
-  --cd-secondary-text-color:             #474243;
+  --cd-secondary-color:                  #666;
+  --cd-secondary-text-color:             #666;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #474243;
-  --cd-content-background-color:         #322f31;
-  --cd-faded-background-color:           #474243;
+  --cd-body-background-color:            #fff;
+  --cd-content-background-color:         #fff;
+  --cd-faded-background-color:           #fff;
 
   /* Background Extras */
   --cd-body-background-image:             url(https://i.pinimg.com/564x/69/bf/41/69bf4137a553a0dadaf8325bf313c8ed.jpg);
@@ -37,8 +37,8 @@ body {
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color:                  #fceec3;
-  --cd-faded-text-color:                 #fceec3;
+  --cd-body-text-color:                  #333;
+  --cd-faded-text-color:                 #666;
 
   /* ============================================================= */
   /* Borders
@@ -50,7 +50,7 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color:          #21212a;
+  --cd-navbar-background-color:          #fff;
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-content-background-color);
@@ -83,7 +83,7 @@ body {
   --cd-navbar-dropdown-link-color-hover: var(--cd-primary-text-color);
 
   /* Divider */
-  --cd-navbar-dropdown-divider:          rgba(255,255,255,.12);
+  --cd-navbar-dropdown-divider:          rgba(0,0,0,.12);
   --cd-navbar-dropdown-border-radius:    0 0 var(--cd-border-radius) var(--cd-border-radius);
 
 
@@ -92,7 +92,7 @@ body {
   ================================================================ */
   
   /* Background */
-  --cd-footer-background-color:          var(--cd-navbar-background-color);
+  --cd-footer-background-color:         rgba(255, 255, 255, 0);
 
   /* Link/Text */
   --cd-footer-text-color:                var(--cd-navbar-text-color);

@@ -43,9 +43,10 @@ body {
   /* ============================================================= */
   /* Borders
   ================================================================ */
-  --cd-border-color:                     rgba(0, 0, 0, 0.8);
-  --cd-border-width:                     50px;
-  --cd-border-radius:                    0rem;
+  --cd-border-color: rgba(0, 0, 0, 0.2);
+  --cd-border-width: 1px;
+  --cd-border-style: solid;
+  --cd-border-radius: 0rem;
 
   /* ============================================================= */
   /* Navbar

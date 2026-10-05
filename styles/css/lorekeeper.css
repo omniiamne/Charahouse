@@ -698,12 +698,12 @@ navbar {
 }
   
 hr {
+  border: none;
+	border-top: 3px double var(--cd-secondary-color);
   color: var(--cd-secondary-color);
-  margin: 20px 0;
-	padding: 0;
-	height: 0;
-	border: none;
-  text-align: center;  
+  overflow: visible;
+  text-align: center;
+  height: 5px; 
 }
 
 hr::after {

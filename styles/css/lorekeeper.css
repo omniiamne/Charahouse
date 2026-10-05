@@ -16,13 +16,13 @@ body {
   /* Primary Color
   ================================================================ */
   --cd-primary-color:                    #333;
-  --cd-primary-text-color:               #333;
+  --cd-primary-text-color:               #eaeaea;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  ##eaeaea;
-  --cd-secondary-text-color:             ##eaeaea;
+  --cd-secondary-color:                  #333;
+  --cd-secondary-text-color:             #eaeaea;
 
   /* ============================================================= */
   /* Backgrounds

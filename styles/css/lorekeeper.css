@@ -702,6 +702,7 @@ hr {
   border-top: 3px double var(--cd-secondary-color);
   color: var(--cd-secondary-color);
   overflow: visible;
+  text-align: center;
   height: 5px;
 }
 

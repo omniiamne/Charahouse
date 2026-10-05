@@ -50,13 +50,26 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color:          #f3f3f3;
+	/* фон навбара */
+  --cd-navbar-background-color:          #f3f3f3; 
+	
+	/* цвет текста навбара */
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-primary-color);
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
   --cd-navbar-link-color-hover:          var(--cd-secondary-color);
+
+	/* шрифт */
   --cd-navbar-font-family:               var(--cd-body-font-family);
+
+	/* навбар выпадающего списока */
+  --cd-navbar-dropdown-background-color: var(--cd-navbar-background-color);
+  --cd-navbar-dropdown-background-hover: var(--cd-secondary-color);
+  --cd-navbar-dropdown-link-color:       var(--cd-navbar-link-color);
+  --cd-navbar-dropdown-link-color-hover: var(--cd-secondary-text-color);
+  --cd-navbar-dropdown-divider:          rgba(0,0,0,.12);
+  --cd-navbar-dropdown-border-radius:    0 0 var(--cd-border-radius) var(--cd-border-radius);
   
   /* ============================================================= */
   /* Main Fonts
@@ -71,22 +84,7 @@ body {
   /* These are just for extra easy styling
   /*
   /* ============================================================= */
-  /* Navbar Dropdown 
-  ================================================================ */
-
-  /* Background */
-  --cd-navbar-dropdown-background-color: var(--cd-navbar-background-color);
-  --cd-navbar-dropdown-background-hover: var(--cd-primary-color);
-
-  /* Link/Text */
-  --cd-navbar-dropdown-link-color:       var(--cd-navbar-link-color);
-  --cd-navbar-dropdown-link-color-hover: var(--cd-primary-text-color);
-
-  /* Divider */
-  --cd-navbar-dropdown-divider:          rgba(0,0,0,.12);
-  --cd-navbar-dropdown-border-radius:    0 0 var(--cd-border-radius) var(--cd-border-radius);
-
-
+  
   /* ============================================================= */
   /* Footer
   ================================================================ */

@@ -65,7 +65,7 @@ body {
 
 	/* навбар выпадающего списока */
   --cd-navbar-dropdown-background-color: var(--cd-navbar-background-color);
-  --cd-navbar-dropdown-background-hover: var(--cd-secondary-color);
+  --cd-navbar-dropdown-background-hover: #ded9d5;
   --cd-navbar-dropdown-link-color:       var(--cd-navbar-link-color);
   --cd-navbar-dropdown-link-color-hover: var(--cd-secondary-text-color);
   --cd-navbar-dropdown-divider:          rgba(0,0,0,.12);

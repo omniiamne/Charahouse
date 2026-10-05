@@ -44,7 +44,9 @@
   <link rel="stylesheet" type="text/css" href="styles/css/charadex.css">
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Pangolin&display=swap" rel="stylesheet">
 
 
 </head>
@@ -55,7 +57,7 @@
   <!-- --------------------------------------------------------------------
   <-- Header
   <-------------------------------------------------------------------- -->
-  <div class="load-html" id="header" data-source="includes/header.html"></div>
+ <div data-include="includes/header.html"></div>
 
 
   <!-- --------------------------------------------------------------------
@@ -211,6 +213,9 @@
 
   <!-- Charadex Script -->
   <script src="styles/js/pages/base.js" type="module"></script>
+  <script src="styles/js/switchStyles.js"></script>
+	<script src="styles/js/loadIncludes.js"></script>
+	<script src="styles/js/lang.js"></script>
 
 
 </body>

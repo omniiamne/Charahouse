@@ -56,7 +56,7 @@ body {
   --cd-navbar-text-color:                var(--cd-content-background-color);
   --cd-navbar-link-color:                var(--cd-navbar-text-color);
   --cd-navbar-link-color-hover:          var(--cd-primary-color);
-  --cd-navbar-font-family:               var(--cd-header-font-family);
+  --cd-navbar-font-family:               var(--cd-body-font-family);
   
   /* ============================================================= */
   /* Main Fonts
@@ -655,19 +655,75 @@ p:last-child {
         font-size: 5rem;
     }
 
-p {
-font-size: 15px; /* больше шрифт для десктопа */
+  /* ============================================================= */
+  /*
+  /* Кастомки
+  /*
+  /* ============================================================= */
+
+.header-banner {
+    height: 250px;
+    border-radius: 0 0 0 0;
+    background-image: url("https://img-l.ink/img/1LVeMb9kzqCRnpFHcuK9mCJuNCrBfQoT0.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+main {
+  margin-top: 10px;
 }
 
-a {
-font-size: 15px; /* Устанавливает размер шрифта в пикселях */
-}
-  
-h1 {
-font-size: 2em; /* Размер в 2 раза больше родительского */
+navbar {
+    width: 800px;
 }
 
-/* Prevents awkward load in stutter */
+.main-content { 
+  background-color: rgba(222, 222, 222, 0.5); 
+  backdrop-filter: blur(10px); 
+  display: flex; flex-direction: column;   
+  margin: 0 auto;
+  margin-left: 0;
+  border-width: var(--cd-card-border-width) !important;
+  border-style: var(--cd-card-border-style) !important;
+  border-color: var(--cd-card-border-color) !important;
+  border-radius: var(--cd-border-radius) !important;
+}
+
+.sidebar {
+  margin-right: 0;
+}
+
+.sidebar ul { 
+  list-style-type: none; 
+  display: inline-block; 
+  padding-top: 30px; 
+}
+
+.sidebar ul li { 
+  background-color: rgba(255, 255, 255, 0.5); 
+  backdrop-filter: blur(10px); 
+  border-top-left-radius: 0.25rem; 
+  border-bottom-left-radius: 0.25rem; 
+  margin-bottom: 1em; padding: 0.4em 0px; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px 3px; 
+}
+
+.sidebar-header { 
+  color: var(--cd-navbar-background-color); 
+}
+
+.sidebar-header a { 
+  color: white; 
+}
+.sidebar-header a:hover { 
+  background-color: transparent; 
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.footer {
+  margin-top: 10px;
+}
+
 #charadex-gallery .list .card-body {
   min-height: calc(200px + 2.5rem);
 }
@@ -684,13 +740,6 @@ font-size: 2em; /* Размер в 2 раза больше родительск�
   max-height: 175px !important;
 }
 
-  .header-banner {
-    height: 250px;
-    border-radius: 0 0 0 0;
-    background-image: url("https://img-l.ink/img/15-mUfv3018oVd4WCIs1HCUeQsaNjXf0Y.png");
-    background-position: center;
-    background-size: cover;
-}
-
-  
+.carousel-item {
+  min-height: 500px; 
 }

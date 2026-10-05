@@ -507,23 +507,6 @@ h4, h5, h6 {
   font-family: var(--cd-navbar-font-family) !important;
 }
 
-hr {
-  border: none;
-  border-top: 3px double var(--cd-secondary-text-color);
-  color: var(--cd-secondary-text-color);
-  overflow: visible;
-  text-align: center;
-  height: 5px;
-}
-
-hr::after {
-  background-color: var(--cd-background-color);
-  content: "✦";
-  padding: 0 4px;
-  position: relative;
-  top: -13px;
-}
-
 img {
   image-rendering: -webkit-optimize-contrast;
 }
@@ -712,4 +695,21 @@ navbar {
 
 .carousel-item {
   min-height: 500px; 
+}
+
+hr {
+  border: none;
+  border-top: 3px double var(--cd-secondary-color);
+  color: var(--cd-secondary-color);
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background-color: var(--cd-body-background-color);
+  content: "✦";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
 }

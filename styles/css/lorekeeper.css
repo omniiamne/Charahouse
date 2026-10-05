@@ -696,13 +696,14 @@ navbar {
 .carousel-item {
   min-height: 500px; 
 }
-
+  
 hr {
-  border: none;
   color: var(--cd-secondary-color);
-  overflow: visible;
-  text-align: center;
-  height: 5px;
+  margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+  text-align: center;  
 }
 
 hr::after {
